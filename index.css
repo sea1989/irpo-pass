@@ -231,6 +231,10 @@ p {
   border-bottom: 1px solid black;
 }
 
+.charts-wrapper {
+  display: flex;
+}
+
 @media (max-width: 1500px) {
   .main {
     flex-direction: column;
