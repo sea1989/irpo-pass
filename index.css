@@ -245,4 +245,9 @@ p {
   .statistic {
     width: 100%;
   }
+
+  .charts-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
