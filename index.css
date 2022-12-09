@@ -47,7 +47,7 @@ p {
 
 .main {
   display: flex;
-  margin: 40px 60px 40px;
+  margin: 40px 24px 40px;
   gap: 20px;
 }
 
@@ -140,12 +140,18 @@ p {
   font-weight: bold;
 }
 
-.prof,
+.prof {
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+}
+
 .statistic {
   display: flex;
   flex-direction: column;
 
-  width: 33%;
+  width: 38%;
 }
 
 .prof-block {
@@ -203,9 +209,7 @@ p {
   flex-direction: column;
   border-radius: 13px;
   background-color: #c9d7f2;
-  padding: 36px;
-
-  margin-top: 30px;
+  padding: 8px 36px;
 }
 
 .modules h3 {
@@ -220,6 +224,7 @@ p {
   display: flex;
   flex-direction: column;
   padding: 0;
+  margin: 0;
 }
 
 .modules-item {
